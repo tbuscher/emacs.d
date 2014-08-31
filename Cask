@@ -1,0 +1,13 @@
+(source melpa)
+
+(depends-on "ag")
+(depends-on "enh-ruby-mode")
+(depends-on "flx-ido")
+(depends-on "highlight-indentation")
+(depends-on "js2-mode")
+(depends-on "pallet")
+(depends-on "projectile")
+(depends-on "rvm")
+(depends-on "smartparens")
+(depends-on "solarized-theme")
+(depends-on "yaml-mode")
