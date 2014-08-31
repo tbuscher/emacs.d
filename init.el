@@ -3,7 +3,7 @@
 (require 'pallet)
 
 (add-to-list 'load-path "~/.emacs.d/init.d")
-(add-to-list 'load-path "~/.emacs.d/vendor")
+(add-to-list 'load-path "~/.emacs.d/vendor/railscasts-theme")
 
 (load "00-base.el")
 (load "01-ruby.el")
