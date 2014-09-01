@@ -12,3 +12,4 @@
 (load "04-smartparens.el")
 (load "05-highlight-indentation.el")
 (load "06-js2-mode.el")
+(load "07-solarized-theme.el")

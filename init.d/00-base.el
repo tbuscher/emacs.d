@@ -31,9 +31,7 @@
 ;; trucate even even when screen is split into multiple windows
 (setq-default truncate-partial-width-windows nil)
 
-(require 'solarized-theme)
 (require 'railscasts-theme)
-(enable-theme 'solarized-dark)
 
 ;; Highlight incremental search
 (setq search-highlight t)
