@@ -1,7 +1,7 @@
 ;; Set the starting position and width and height of Emacs Window
 (add-to-list 'default-frame-alist '(left . 0))
 (add-to-list 'default-frame-alist '(top . 0))
-(add-to-list 'default-frame-alist '(height . 45))
+(add-to-list 'default-frame-alist '(height . 87))
 (add-to-list 'default-frame-alist '(width . 175))
 (set-default-font "6x13")
 (setq column-number-mode t)

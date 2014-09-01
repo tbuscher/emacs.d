@@ -13,3 +13,4 @@
 (load "05-highlight-indentation.el")
 (load "06-js2-mode.el")
 (load "07-solarized-theme.el")
+(load "08-ansi-term.el")
