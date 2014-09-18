@@ -1,9 +1,9 @@
 ;; Set the starting position and width and height of Emacs Window
 (add-to-list 'default-frame-alist '(left . 0))
 (add-to-list 'default-frame-alist '(top . 0))
-(add-to-list 'default-frame-alist '(height . 87))
-(add-to-list 'default-frame-alist '(width . 175))
-(set-default-font "6x13")
+(add-to-list 'default-frame-alist '(height . 88))
+(add-to-list 'default-frame-alist '(width . 200))
+(set-default-font "-apple-Fixed6x13-medium-normal-normal-*-13-*-*-*-m-0-iso10646-1")
 (setq column-number-mode t)
 (ido-mode t)
 (tool-bar-mode -1)
@@ -11,6 +11,8 @@
 (menu-bar-mode -1)
 ;; Turn on the menu bar for exploring new modes
 (global-set-key (kbd "C-<f10>") 'menu-bar-mode)
+
+(setq inhibit-startup-message t)
 
 ;; To get rid of Weird color escape sequences in Emacs.
 ;; Instruct Emacs to use emacs term-info not system term info
