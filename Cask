@@ -1,6 +1,7 @@
 (source melpa)
 
 (depends-on "ag")
+(depends-on "dash-at-point")
 (depends-on "enh-ruby-mode")
 (depends-on "flx-ido")
 (depends-on "highlight-indentation")

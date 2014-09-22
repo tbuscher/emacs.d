@@ -14,3 +14,4 @@
 (load "06-js2-mode.el")
 (load "07-solarized-theme.el")
 (load "08-ansi-term.el")
+(load "09-dash-at-point.el")
