@@ -102,3 +102,6 @@
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+
+;; Mark all custom themes safe
+(custom-set-variables '(custom-safe-themes t))

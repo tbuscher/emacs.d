@@ -9,4 +9,4 @@
 ;; Use less bolding
 (setq solarized-use-less-bold t)
 
-(enable-theme 'solarized-dark)
+(load-theme 'solarized-dark)
