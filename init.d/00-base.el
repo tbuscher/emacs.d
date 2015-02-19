@@ -3,12 +3,12 @@
 (add-to-list 'default-frame-alist '(top . 0))
 (add-to-list 'default-frame-alist '(height . 88))
 (add-to-list 'default-frame-alist '(width . 200))
-(set-default-font "-apple-Fixed6x13-medium-normal-normal-*-13-*-*-*-m-0-iso10646-1")
+(set-default-font "-*-Monaco-normal-normal-normal-*-10-*-*-*-m-0-iso10646-1")
 (setq column-number-mode t)
 (ido-mode t)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
-(menu-bar-mode -1)
+;;(menu-bar-mode -1)
 ;; Turn on the menu bar for exploring new modes
 (global-set-key (kbd "C-<f10>") 'menu-bar-mode)
 
@@ -104,3 +104,6 @@
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+
+;; mark all custom themes safe
+(setq custom-safe-themes t)

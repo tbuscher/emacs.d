@@ -1,6 +1,7 @@
-(require 'cask "/usr/local/Cellar/cask/0.7.1/cask.el")
+(require 'cask "/usr/local/Cellar/cask/0.7.2/cask.el")
 (cask-initialize)
 (require 'pallet)
+(pallet-mode t)
 
 (add-to-list 'load-path "~/.emacs.d/init.d")
 (add-to-list 'load-path "~/.emacs.d/vendor/railscasts-theme")
