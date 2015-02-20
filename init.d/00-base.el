@@ -4,6 +4,7 @@
 (add-to-list 'default-frame-alist '(height . 88))
 (add-to-list 'default-frame-alist '(width . 200))
 (set-default-font "-*-Monaco-normal-normal-normal-*-10-*-*-*-m-0-iso10646-1")
+(setq mac-allow-anti-aliasing nil)
 (setq column-number-mode t)
 (ido-mode t)
 (tool-bar-mode -1)
